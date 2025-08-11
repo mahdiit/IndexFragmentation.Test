@@ -17,6 +17,7 @@ public class FragmentationTestResultEntity
     public double UuidNext { get; set; }
     public double Ulid { get; set; }
     public long TotalCount { get; set; }
+    public TimeSpan? SearchTime { get; set; }
     public DateTime InsertDate { get; set; } = DateTime.Now;
 }
 
